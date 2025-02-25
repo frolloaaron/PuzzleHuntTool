@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PuzzleHuntTool.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25">
+            <Label
+                FontSize="20"
+                TextColor="WhiteSmoke"
+                HorizontalOptions="Center"
+                >
+                Puzzle Hunt Tool
+            </Label>
+            <Grid
+                RowSpacing="10"
+                ColumnSpacing="10"
+                >
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+
+                <Button
+                    x:Name="RotateText"
+                    Text="Text Rotation"
+                    HeightRequest="100"
+                    FontSize="20"
+                    Grid.Row="0"
+                    Grid.Column="0"
+                    
+                    Clicked="RotateText_Clicked"
+                    />
+            </Grid>
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
