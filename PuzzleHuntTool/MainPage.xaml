@@ -28,6 +28,7 @@
                     <ColumnDefinition/>
                     <ColumnDefinition/>
                     <ColumnDefinition/>
+                    <ColumnDefinition/>
                 </Grid.ColumnDefinitions>
 
                 <Button
@@ -39,6 +40,16 @@
                     Grid.Column="0"
                     
                     Clicked="RotateText_Clicked"
+                    />
+                <Button
+                    x:Name="Semaphore"
+                    Text="Semaphore"
+                    HeightRequest="100"
+                    FontSize="20"
+                    Grid.Row="0"
+                    Grid.Column="1"
+                    
+                    Clicked="Semaphore_Clicked"
                     />
             </Grid>
         </VerticalStackLayout>

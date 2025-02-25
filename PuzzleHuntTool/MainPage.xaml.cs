@@ -12,6 +12,11 @@
         {
             Navigation.PushAsync(new RotateText());
         }
+
+        private void Semaphore_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new Semaphore());
+        }
     }
 
 }
