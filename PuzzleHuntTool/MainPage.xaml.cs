@@ -17,6 +17,11 @@
         {
             Navigation.PushAsync(new Semaphore());
         }
+
+        private void Braille_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new Braille());
+        }
     }
 
 }

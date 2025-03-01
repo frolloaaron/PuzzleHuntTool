@@ -63,6 +63,9 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <MauiXaml Update="Braille.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="RotateText.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>

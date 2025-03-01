@@ -51,6 +51,16 @@
                     
                     Clicked="Semaphore_Clicked"
                     />
+                <Button
+                    x:Name="Braille"
+                    Text="Braille"
+                    HeightRequest="100"
+                    FontSize="20"
+                    Grid.Row="0"
+                    Grid.Column="2"
+                    
+                    Clicked="Braille_Clicked"
+                    />
             </Grid>
         </VerticalStackLayout>
     </ScrollView>
