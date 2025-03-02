@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PuzzleHuntTool.PairColor"
+             Title="PairColor">
+    <VerticalStackLayout
+        HorizontalOptions="Center"
+        >
+        <HorizontalStackLayout
+            Margin="30"
+            >
+            <VerticalStackLayout
+                Margin="20"
+                >
+                <BoxView
+                    BackgroundColor="White"
+                    HeightRequest="150"
+                    WidthRequest="100"
+                    x:Name="MajorBox"
+                    />
+                <Picker
+                    HorizontalOptions="Center"
+                    x:Name="majorPicker"
+                    Title="Major Color"
+                    SelectedIndexChanged="majorPicker_SelectedIndexChanged"
+                    />
+            </VerticalStackLayout>
+            <VerticalStackLayout
+                Margin="20"
+                >
+                <BoxView
+                    BackgroundColor="Blue"
+                    HeightRequest="150"
+                    WidthRequest="100"
+                    x:Name="MinorBox"
+                    />
+                <Picker
+                    HorizontalOptions="Center"
+                    x:Name="minorPicker"
+                    Title="Minor Color"
+                    SelectedIndexChanged="minorPicker_SelectedIndexChanged"
+                    />
+            </VerticalStackLayout>
+        </HorizontalStackLayout>
+        <Label
+            x:Name="Display"
+            HorizontalOptions="Center"
+            FontSize="20"
+            />
+    </VerticalStackLayout>
+</ContentPage>

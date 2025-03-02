@@ -61,6 +61,16 @@
                     
                     Clicked="Braille_Clicked"
                     />
+                <Button
+                    x:Name="PairColor"
+                    Text="25 Pair Color Code"
+                    HeightRequest="100"
+                    FontSize="20"
+                    Grid.Row="0"
+                    Grid.Column="3"
+                    
+                    Clicked="PairColor_Clicked"
+                    />
             </Grid>
         </VerticalStackLayout>
     </ScrollView>

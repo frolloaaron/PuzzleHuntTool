@@ -22,6 +22,11 @@
         {
             Navigation.PushAsync(new Braille());
         }
+
+        private void PairColor_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new PairColor());
+        }
     }
 
 }
