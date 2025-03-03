@@ -32,24 +32,24 @@
                 </Grid.ColumnDefinitions>
 
                 <Button
-                    x:Name="RotateText"
-                    Text="Text Rotation"
+                    x:Name="PairColor"
+                    Text="25 Pair Color Code"
                     HeightRequest="100"
                     FontSize="20"
                     Grid.Row="0"
                     Grid.Column="0"
                     
-                    Clicked="RotateText_Clicked"
+                    Clicked="PairColor_Clicked"
                     />
                 <Button
-                    x:Name="Semaphore"
-                    Text="Semaphore"
+                    x:Name="Atbash"
+                    Text="Atbash Cipher"
                     HeightRequest="100"
                     FontSize="20"
                     Grid.Row="0"
                     Grid.Column="1"
                     
-                    Clicked="Semaphore_Clicked"
+                    Clicked="Atbash_Clicked"
                     />
                 <Button
                     x:Name="Braille"
@@ -62,14 +62,24 @@
                     Clicked="Braille_Clicked"
                     />
                 <Button
-                    x:Name="PairColor"
-                    Text="25 Pair Color Code"
+                    x:Name="Semaphore"
+                    Text="Semaphore"
                     HeightRequest="100"
                     FontSize="20"
                     Grid.Row="0"
                     Grid.Column="3"
                     
-                    Clicked="PairColor_Clicked"
+                    Clicked="Semaphore_Clicked"
+                    />
+                <Button
+                    x:Name="RotateText"
+                    Text="Text Rotation"
+                    HeightRequest="100"
+                    FontSize="20"
+                    Grid.Row="1"
+                    Grid.Column="0"
+                    
+                    Clicked="RotateText_Clicked"
                     />
             </Grid>
         </VerticalStackLayout>

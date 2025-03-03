@@ -27,6 +27,11 @@
         {
             Navigation.PushAsync(new PairColor());
         }
+
+        private void Atbash_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new Atbash());
+        }
     }
 
 }
