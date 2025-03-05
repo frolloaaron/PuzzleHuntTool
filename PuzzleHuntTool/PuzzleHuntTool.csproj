@@ -66,6 +66,9 @@
 	  <MauiXaml Update="Atbash.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	  <MauiXaml Update="Baconian.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="Braille.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>

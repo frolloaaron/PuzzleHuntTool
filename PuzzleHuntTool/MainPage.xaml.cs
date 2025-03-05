@@ -32,6 +32,11 @@
         {
             Navigation.PushAsync(new Atbash());
         }
+
+        private void Baconian_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new Baconian());
+        }
     }
 
 }
